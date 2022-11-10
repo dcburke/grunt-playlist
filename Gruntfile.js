@@ -5,7 +5,7 @@ module.exports = function(grunt) {
     //Configuration
   grunt.initConfig({
       //pass in options to plugins, references to files etc
-   // pkg: grunt.file.readJSON('package.json'),
+   //pkg: grunt.file.readJSON('package.json'),
     concat: {
       js: {
         src: ['js/*.js'],
